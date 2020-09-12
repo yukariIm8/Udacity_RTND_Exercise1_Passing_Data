@@ -112,7 +112,7 @@ class App extends Component {
 			const favoriteMovie = movies[profile.favoriteMovieID].name;
 			return (
             <li key={profile.id}>
-				<p>{`${userName}'s favorite moview is "${favoriteMovie}`}</p>
+				<p>{`${userName}'s favorite movie is "${favoriteMovie}`}</p>
 			</li>
             );
         })}
